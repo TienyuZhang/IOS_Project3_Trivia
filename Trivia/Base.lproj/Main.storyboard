@@ -17,14 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Question:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERz-YO-Vk5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Question:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERz-YO-Vk5">
                                 <rect key="frame" x="99" y="109" width="195" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="ruy-Cu-ZAm">
-                                <rect key="frame" x="65" y="201" width="280" height="604"/>
+                                <rect key="frame" x="56.666666666666657" y="184" width="280" height="604"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggf-lz-1QS">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="280"/>
@@ -96,10 +97,8 @@
                         <viewLayoutGuide key="safeArea" id="mDf-Na-lrL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ERz-YO-Vk5" firstAttribute="centerX" secondItem="8rJ-5z-VQd" secondAttribute="centerX" id="UJu-0f-DSw"/>
-                            <constraint firstItem="ruy-Cu-ZAm" firstAttribute="top" secondItem="ERz-YO-Vk5" secondAttribute="bottom" constant="55" id="adZ-ey-dAA"/>
-                            <constraint firstItem="mDf-Na-lrL" firstAttribute="trailing" secondItem="ruy-Cu-ZAm" secondAttribute="trailing" constant="48" id="iHh-WZ-8zU"/>
-                            <constraint firstItem="ERz-YO-Vk5" firstAttribute="top" secondItem="mDf-Na-lrL" secondAttribute="top" constant="50" id="jWQ-oS-ITT"/>
+                            <constraint firstItem="ruy-Cu-ZAm" firstAttribute="centerX" secondItem="8rJ-5z-VQd" secondAttribute="centerX" id="cOI-XV-6X1"/>
+                            <constraint firstItem="mDf-Na-lrL" firstAttribute="bottom" secondItem="ruy-Cu-ZAm" secondAttribute="bottom" constant="30" id="hPX-5a-G3k"/>
                         </constraints>
                     </view>
                     <connections>
@@ -123,10 +122,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
